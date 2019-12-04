@@ -81,9 +81,7 @@ object AoC2 {
             val file = File("resources/$part1File")
             val scanner = Scanner(file)
             var str = ""
-            var count = 0
             while (scanner.hasNext()) {
-                ++count
                 str += scanner.next()
             }
 
